@@ -111,10 +111,26 @@ a{
   font-weight: normal;
 }
 
-#hero{
-  width: 500px;
-  height: 600px;
+/*About Section */
+.about{
+  background: #383961;
+  height: 960px;
 }
+
+#hero{
+  max-width: 480px;
+  padding: 25px;
+  float: left;
+}
+
+.about p{
+  color:  #EDFFEC;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
 
 /*Projects Section*/
 
