@@ -51,7 +51,8 @@ h1{
 h2{
   font-size: 4rem;
 }
-ul{
+
+.nav ul{
   list-style: none;
 }
 
@@ -97,7 +98,6 @@ a{
 }
 
 #welcome-section {
-  width: 100vw;
   height: 100vh;
   background: linear-gradient(-64deg, #c31432, #240b36);
   display: flex;
@@ -114,23 +114,29 @@ a{
 /*About Section */
 .about{
   background: #383961;
-  height: 960px;
+  height: 1080px;
 }
 
 #hero{
   max-width: 480px;
   padding: 25px;
   float: left;
+  padding-top: 120px;
 }
 
 .about p{
   color:  #EDFFEC;
-  padding-top: 30px;
+  padding-top: 120px;
   margin-left: 30px;
   margin-right: 30px;
-
 }
 
+.skills{
+  float: left;
+  margin: 25px;
+  left: 500px;
+  padding-left: 50px;
+}
 
 /*Projects Section*/
 
@@ -141,12 +147,12 @@ a{
 }
 
 .projects-section-header{
-  max-width: 1000px;
+  max-width: 1080px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid #fff;
 }
 
-@@media (max-width: 28.75rem) {
+@media (max-width: 28.75rem) {
   .projects-section-header {
     font-size: 4rem;
   }
@@ -218,7 +224,6 @@ a{
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
   height: 80vh;
   padding: 0 2rem;
   background: #495D63;
@@ -251,7 +256,7 @@ a{
 }
 
 .contact-details{
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
